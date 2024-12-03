@@ -1,0 +1,31 @@
+Command: cd NFT-Kart2/
+Output:
+bash: cd: NFT-Kart2/: No such file or directory
+Exit Code: 1
+----
+Command: node cray.js
+Output:
+(node:70484) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/chaitanyachawla/devdockDir/bounty-zuksq/frontend/NFT-Kart2/cray.js:1
+import { generatePrivateKey, getAddress } from "viem/accounts";
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.16.0
+Exit Code: 1
+----
+Command: node cray.js
+Output:
+Wallet Address: 0x6ec31d30a150901EA056E5080D8986B56A8E19D0
+Private Key: 0x08ae3206872a70b66fac8bece3af7bc124734fbcdfa517dd0167660af8c7c02a
+Exit Code: 0
+----

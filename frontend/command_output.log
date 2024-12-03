@@ -1,0 +1,23 @@
+Command: cd frontend
+Output:
+bash: cd: frontend: No such file or directory
+Exit Code: 1
+----
+Command: cd ..
+Output:
+
+Exit Code: 0
+----
+Command: cd frontend/
+Output:
+bash: cd: frontend/: No such file or directory
+Exit Code: 1
+----
+Command: ls
+Output:
+NFT-Kart2
+app
+command_output.log
+components
+Exit Code: 0
+----
